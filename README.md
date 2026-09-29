@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Project Overview
+## 💼 Project Overview
 
 Complete **RTL-to-GDSII Physical Design** of the **ORCA_TOP** — a full-featured SoC containing a RISC processor core, SDRAM controller, PCI interface, and context memory subsystem. Implemented on the **SAED 32nm (9-metal, 1p9m)** process using the full Synopsys tool suite.
 
@@ -12,7 +12,7 @@ This is a significantly more complex design than a simple UART block — with **
 
 ---
 
-## 🏗️ Design Architecture
+## ⌗ Design Architecture
 
 ```
 ORCA_TOP
@@ -51,7 +51,7 @@ ORCA_TOP
 
 ---
 
-## 🔄 Complete PnR Flow
+## 🔁 Complete PnR Flow
 
 ```
 SystemVerilog RTL  —  ORCA_WRAPPER/*.v
@@ -203,7 +203,7 @@ SystemVerilog RTL  —  ORCA_WRAPPER/*.v
 
 ---
 
-## ✅ Timing Results (Post-CTS, from actual ICC2 report)
+## ⏳ Timing Results (Post-CTS, from actual ICC2 report)
 
 | Metric                  | Value                    |
 |-------------------------|--------------------------|
@@ -221,7 +221,7 @@ SystemVerilog RTL  —  ORCA_WRAPPER/*.v
 
 ---
 
-## 🔋 Power Network Results (from actual ICC2 reports)
+## ⏻ Power Network Results (from actual ICC2 reports)
 
 | Check                      | Result              |
 |----------------------------|---------------------|
@@ -239,7 +239,7 @@ SystemVerilog RTL  —  ORCA_WRAPPER/*.v
 
 ---
 
-## 📁 Repository Structure
+## 🖧 Repository Structure
 
 ```
 orca-top-pd/
@@ -362,7 +362,7 @@ orca-top-pd/
 
 ---
 
-## 📚 Skills Demonstrated
+## 📈 Skills Demonstrated
 
 - Full RTL-to-GDSII flow for a **complex SoC with 40 hard macros**
 - SystemVerilog RTL synthesis using DC NXT
@@ -377,13 +377,7 @@ orca-top-pd/
 
 ---
 
-## ⚠️ Note on Paths
-
-All scripts reference `/projects/bommera/orca_top/` and `/projects/SAED_32nm/` — server-side PDK paths from the training environment. Update paths to match your local SAED32 PDK installation. No proprietary library or technology files are included.
-
----
-
-## 👤 Author
+## 👨🏻‍💻 Author
 
 **Bommera Chandu**
 B.Tech Electronics & Communication Engineering | CMR Technical Campus, Telangana
